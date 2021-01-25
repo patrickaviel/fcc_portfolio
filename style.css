@@ -1,0 +1,79 @@
+/* Set default font-family */
+*{
+  font-family: 'Inconsolata', monospace;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #f2f2f2;
+  margin-bottom: 5rem;
+}
+
+h1,h2{
+  font-family: 'Lekton', sans-serif;
+  color: #87dccb;
+}
+
+.myImg{
+  border-radius: 50%;
+}
+
+ul{
+  list-style: none;
+  margin-left: 0;
+  padding: 0;
+  color:#f2f2f2;
+}
+
+#landing {
+  height: 80vh;
+  /* center elements */
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  box-shadow: 2px 5px #888888;
+}
+
+.jumbotron{
+  background-color: #f2f2f2;
+}
+
+#gallery{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.tools{
+  padding:25px;
+  /* border-radius: 6px; */
+  margin:20px;
+  width: 50%;
+  /* border: 5px solid white;
+  box-shadow: 5px 10px #888888; */
+  background: rgba( 255, 255, 255, 0.20 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13.0px );
+-webkit-backdrop-filter: blur( 13.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.navbar .nav-item:hover .nav-link{
+
+  color: #87dccb !important;
+
+
+}
+
