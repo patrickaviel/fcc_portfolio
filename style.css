@@ -9,7 +9,7 @@ html{
 
 body{
   background-color: #f2f2f2;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 h1,h2{
@@ -53,6 +53,7 @@ img{
   justify-content: center;
   align-items: center;
   height: 75vh;
+  position: relative;
 }
 
 .tools{
@@ -71,9 +72,54 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .navbar .nav-item:hover .nav-link{
-
   color: #87dccb !important;
-
-
+}
+.footer-s{
+  margin: auto;
+  height: 20vh;
+  position: absolute;
+  
+}
+/* .sm-site a:hover i{
+  color:#87dccb;
+} */
+footer{
+  margin-top:20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: center;
+}
+.social-media-sites li{
+  margin: 0.5rem;
+}
+.fa-color{
+  color:black;
+}
+.social-media-sites{
+  margin-top:100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
+#certificates{
+  height: 50vh;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.carousel{
+  width: 80%;
+  margin: auto;
+}
+.carousel-item img{
+  width: auto;
+  height: auto;
+  max-height: 300px;
+  margin: auto; 
+  display: block;
+  }
